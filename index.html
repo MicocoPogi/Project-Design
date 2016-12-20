@@ -1,0 +1,124 @@
+<!DOCTYPE>
+<html>
+<head>
+        <title>Signup - MySukat</title>
+    <link href="assets/css/stylesheets/theme.css" rel="stylesheet" type="text/css" />  
+    <link href="assets/css/stylesheets/styles.css" rel="stylesheet" type="text/css" />  
+    <link href="assets/css/stylesheets/panel.css" rel="stylesheet" type="text/css" />   
+    <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" type="text/css" />  
+    </head>
+    
+    <body>  
+    <div class="custom-navbar"> 
+           <div class="logo">
+            <a>My<span>Sukat</span></a>
+        </div>
+        
+        <ul>
+            <li><a href="index.html"  class="active">Home</a></li>
+            <li><a href="friends.html">Friends</a></li>
+            <li><a href="javascript:void(0)">Shop</a></li>
+            <li><a href="javascript:void(0)">Gifts</a></li>
+            <li>
+                <a href="javascript:void(0)"  class="actionButton" ><span class="fa fa-bars navicon"></span></a>
+                
+            </li>
+        </ul>
+        </div> 
+        <div class="container-fluid">
+            
+            <div class="row">
+                <!--
+                <div class="col-md-offset-4 col-md-4">
+                    <div class="card-box">
+                         <div class="box-header">
+                            <span class="box-title"> Card Title </span>
+                        </div>
+                    </div> 
+                </div>
+                -->
+                <div class="col-md-offset-2 col-md-2">
+                    <div class="dash-card">
+                        <div class="card-body">
+                        <img src="assets/images/clothes/shirt-1.png" />
+                        </div>
+                        <div class="card-text">
+                        You Have added 4 new items
+                        </div>
+                        <div class="card-footer ">
+                            <p>View All</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-2">
+                    <div class="dash-card">
+                        <div class="card-body">
+                        <img src="assets/images/clothes/bell.png" />
+                        </div>
+                        <div class="card-text">
+                        You have new pending notifications
+                        </div>
+                        <div class="card-footer ">
+                            <p>View All</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-2">
+                    <div class="dash-card">
+                        <div class="card-body">
+                            
+                        <img src="assets/images/clothes/shopping-bag.png" />
+                        </div>
+                        <div class="card-text">
+                        You have created new gift
+                        </div>
+                        <div class="card-footer ">
+                            <p>View All</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-2">
+                    <div class="dash-card">
+                        <div class="card-body">
+                        <img src="assets/images/clothes/user.png" /> 
+                        </div>
+                        <div class="card-text">
+                        You have new pending friend requests
+                        </div>
+                        <div class="card-footer ">
+                            <p>View All</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+              
+        </div>
+         
+        
+       
+        <div class="actionPopover hidden">
+        <ul>
+                    <li><a href="profile.html"><i class="fa fa-vcard"></i> Profile</a></li> 
+                    <li><a href="javascript:void(0)"><i class="fa fa-cog"></i> Settings</a></li> 
+                    <li><a href="login.html"><i class="fa fa-sign-out"></i> Log Out</a></li> 
+        </ul>
+        </div>
+        
+        <script src="assets/js/jquery.js"></script> 
+        <script src="assets/plugins/bootstrap/bootstrap.js"></script>
+        <script>
+        $(function(){ 
+            $('.actionButton').popover({ 
+                html:true,
+                content:$(".actionPopover").html(),
+                placement:'bottom'
+            }); 
+        });
+        </script>
+    </body> 
+</html>

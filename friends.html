@@ -1,0 +1,104 @@
+<!DOCTYPE>
+<html>
+<head>
+        <title>Friends - MySukat</title>
+        <link href="assets/css/stylesheets/theme.css" rel="stylesheet" type="text/css" />  
+    <link href="assets/css/stylesheets/styles.css" rel="stylesheet" type="text/css" />  
+    <link href="assets/css/stylesheets/panel.css" rel="stylesheet" type="text/css" />  
+    <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" type="text/css" />  
+    </head>
+    
+    <body> 
+    <div class="custom-navbar"> 
+           <div class="logo">
+            <a>My<span>Sukat</span></a>
+        </div>
+        
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="friends.html"  class="active">Friends</a></li>
+            <li><a href="javascript:void(0)">Shop</a></li>
+            <li><a href="javascript:void(0)">Gifts</a></li>
+            <li>
+                <a href="javascript:void(0)"  class="actionButton" ><span class="fa fa-bars navicon"></span></a>
+                
+            </li>
+        </ul>
+        </div>
+    <div class="wrapper">  
+        <div class="container-fluid">
+            
+            <div class="row">
+                 
+                
+                <div class="col-md-3">
+                    <div class="friend-box">
+                        <div class="upper-box">
+                             <img src="assets/images/person-flat.png" alt="..." class="img-circle">
+                        </div>
+                    <div class="lower-box"> 
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="friend-box">
+                        <div class="upper-box">
+                             <img src="assets/images/person-girl-flat.png" alt="..." class="img-circle">
+                        </div>
+                    <div class="lower-box"> 
+                        </div>
+                    </div>
+                </div>
+                 
+            
+                
+                <div class="col-md-3">
+                    <div class="friend-box">
+                        <div class="upper-box">
+                             <img src="assets/images/396f2d24539351.56335ec733642.png" alt="..." class="img-circle">
+                        </div>
+                    <div class="lower-box"> 
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="friend-box">
+                        <div class="upper-box">
+                             <img src="assets/images/flat-faces-icons-circle-6-300x300.png" alt="..." class="img-circle">
+                        </div>
+                    <div class="lower-box"> 
+                        </div>
+                    </div>
+                </div>
+                 
+            </div>
+            
+            
+        
+        </div>
+         
+        </div>  
+       
+        <div class="actionPopover hidden">
+        <ul>
+                    <li><a href="javascript:void(0)"><i class="fa fa-vcard"></i> Profile</a></li> 
+                    <li><a href="javascript:void(0)"><i class="fa fa-cog"></i> Settings</a></li> 
+                    <li><a href="javascript:void(0)"><i class="fa fa-sign-out"></i> Log Out</a></li> 
+        </ul>
+        </div>
+        
+        <script src="assets/js/jquery.js"></script> 
+        <script src="assets/plugins/bootstrap/bootstrap.js"></script>
+        <script>
+        $(function(){ 
+            $('.actionButton').popover({ 
+                html:true,
+                content:$(".actionPopover").html(),
+                placement:'bottom'
+            }); 
+        });
+        </script>
+    </body> 
+</html>
