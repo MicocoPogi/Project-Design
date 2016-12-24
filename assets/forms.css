@@ -1,0 +1,139 @@
+/* line 8, ../sass/forms.scss */
+.box {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 4px 4px  5px  #888;
+}
+/* line 14, ../sass/forms.scss */
+.box .box-head {
+  width: 100%;
+  padding: 15px 10px 5px 10px;
+  height: 50px;
+  text-align: center;
+  color: #7f8c8d;
+  font-weight: bold;
+  font-size: 28px;
+}
+/* line 24, ../sass/forms.scss */
+.box .box-body {
+  width: 100%;
+  height: calc( 100% - 50px);
+  padding: 22px 12px 12px 12px;
+}
+/* line 29, ../sass/forms.scss */
+.box .box-body h4 {
+  text-align: center;
+  color: #7f8c8d;
+}
+/* line 35, ../sass/forms.scss */
+.box .input-div {
+  margin-bottom: 23px;
+}
+/* line 38, ../sass/forms.scss */
+.box .input-div input {
+  border-style: none;
+  background-color: #ecf0f1;
+  height: 44px;
+  color: #7f8c8d;
+  font-weight: 500;
+  border-radius: 0px;
+  font-size: 15px;
+}
+/* line 47, ../sass/forms.scss */
+.box .input-div select {
+  height: 44px;
+  border-radius: 0px;
+  border-style: none;
+  background-color: #ecf0f1;
+}
+/* line 53, ../sass/forms.scss */
+.box .input-div select option {
+  height: 44px;
+}
+/* line 57, ../sass/forms.scss */
+.box .input-div input::-webkit-input-placeholder {
+  font-weight: 300;
+}
+/* line 60, ../sass/forms.scss */
+.box .input-div input:focus {
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #a2cae6;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #a2cae6;
+}
+/* line 66, ../sass/forms.scss */
+.box .input-div .btn-login {
+  background-color: #71b9e9;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  width: 80%;
+  height: 40px;
+}
+/* line 75, ../sass/forms.scss */
+.box .input-div .btn-register {
+  background-color: #49d685;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  width: 80%;
+  height: 40px;
+}
+/* line 84, ../sass/forms.scss */
+.box .input-div .btn:active, .box .input-div .btn.active {
+  font-size: 20px !important;
+}
+
+/* line 90, ../sass/forms.scss */
+.inline-input {
+  width: 48% !important;
+  display: inline-block;
+}
+
+/* line 95, ../sass/forms.scss */
+.inline-input-left {
+  margin-right: 10px;
+}
+
+/* line 98, ../sass/forms.scss */
+.inline-input-right {
+  float: right;
+}
+
+/* line 101, ../sass/forms.scss */
+.signup-birthday {
+  width: 65% !important;
+}
+
+/* line 105, ../sass/forms.scss */
+.signup-sex {
+  width: 32% !important;
+}
+
+/* line 109, ../sass/forms.scss */
+.signup-lastname {
+  width: 50% !important;
+  margin-left: -4px;
+}
+
+/* line 114, ../sass/forms.scss */
+.login-box {
+  height: 350px;
+}
+
+/* line 118, ../sass/forms.scss */
+.signup-box {
+  height: 550px;
+}
+
+/* line 123, ../sass/forms.scss */
+.social-signup-box {
+  height: 350px;
+  width: 80%;
+  background-color: transparent;
+  box-shadow: none;
+}
+/* line 125, ../sass/forms.scss */
+.social-signup-box .box-head {
+  color: #fcfcfc;
+}

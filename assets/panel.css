@@ -1,0 +1,47 @@
+/* line 1, ../sass/panel.scss */
+.friend-box {
+  height: 300px;
+  width: 100%;
+}
+/* line 5, ../sass/panel.scss */
+.friend-box .upper-box {
+  height: 70%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-color: transparent;
+  border-radius: 50%;
+}
+/* line 14, ../sass/panel.scss */
+.friend-box .upper-box img {
+  height: 100%;
+  width: 100%;
+}
+/* line 20, ../sass/panel.scss */
+.friend-box .lower-box {
+  height: 30%;
+}
+
+/* line 26, ../sass/panel.scss */
+.dashboard-box {
+  height: 300px;
+  width: 100%;
+}
+/* line 30, ../sass/panel.scss */
+.dashboard-box .upper-box {
+  height: 70%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-color: transparent;
+  border-radius: 50%;
+}
+/* line 39, ../sass/panel.scss */
+.dashboard-box .upper-box img {
+  height: 100%;
+  width: 100%;
+}
