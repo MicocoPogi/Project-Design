@@ -1,0 +1,133 @@
+ 
+$dark-color-font: #7f8c8d;
+$main-theme-color:#71b9e9;
+ 
+
+
+
+.box{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 4px 4px  5px  #888; 
+    
+    .box-head{
+        width: 100%;
+        padding: 15px 10px 5px 10px;
+        height: 50px;
+        text-align: center;
+        color: $dark-color-font;
+        font-weight: bold;
+        font-size: 28px;
+    }
+    
+    .box-body{
+        width: 100%;
+        height: calc( 100% - 50px);
+        padding: 22px 12px 12px 12px;
+        
+        h4{ 
+        text-align: center;
+        color: $dark-color-font;
+        }
+    }
+    
+    .input-div{
+         
+        margin-bottom: 23px;
+        input{
+            border-style: none;
+            background-color: #ecf0f1;
+            height: 44px;
+            color: $dark-color-font;
+            font-weight: 500;
+            border-radius: 0px;
+            font-size: 15px; 
+        }
+        select{
+            height: 44px;
+            border-radius: 0px;
+            border-style: none;
+            background-color: #ecf0f1;
+            
+            option{
+                height: 44px;
+            }
+        }
+        input::-webkit-input-placeholder {
+            font-weight: 300;
+        }
+        input:focus{
+            outline: 0;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgb(162,202,230); 
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgb(162,202,230);
+        }
+        
+        .btn-login{
+            background-color: $main-theme-color;
+            color: #fff;
+            font-weight: 500;
+            font-size: 18px;
+            width: 80%;
+            height: 40px;
+        }
+        
+        .btn-register{ 
+            background-color: #49d685;
+            color: #fff;
+            font-weight: 500;
+            font-size: 18px;
+            width: 80%;
+            height: 40px;
+        }
+        
+        .btn:active, .btn.active{
+            font-size: 20px !important;
+        }
+    }
+}
+
+.inline-input{
+    width: 48% !important;
+    display: inline-block; 
+}
+
+.inline-input-left{
+    margin-right: 10px;
+}
+.inline-input-right{
+    float: right;
+}
+.signup-birthday{
+     width: 65% !important;
+}
+
+.signup-sex{
+    width: 32% !important;
+}
+
+.signup-lastname{
+    width: 50% !important;
+    margin-left: -4px;
+}
+
+ .login-box{ 
+    height: 350px;
+}
+
+.signup-box{
+    height: 550px;
+}
+ 
+
+.social-signup-box{
+    
+    .box-head{
+        color:#fcfcfc;
+    }
+    height: 350px;
+    width: 80%;
+    background-color: transparent;
+    box-shadow: none;
+}
+ 

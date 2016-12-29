@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+$dark-color-font: #7f8c8d;
+$main-theme-color:#71b9e9;
+$title-color-1:#fcfcfc;
+$title-color-2:#688497;
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: $main-theme-color !important;
+    font-family: 'Ubuntu', sans-serif !important;
+}
+
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: none !important;
+}
+
+
+.center{
+    text-align: center;
+}
+
+
+.appTitle{
+    color:  $title-color-1; /*#ecf0f1 */
+    text-align: center;
+}
+
+.page-title{
+     color:  $title-color-2;
+     margin-left:15px;
+     margin-bottom: 15px;
+}
+
+.hidden{
+    display: none;
+}
+
+.m-b-30{
+    margin-bottom: 45px !important;
+}
+.m-b-20{
+   margin-bottom: 23px !important;
+}
+
+.m-b-10{
+    margin-bottom: 10px !important;
+}

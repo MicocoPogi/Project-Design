@@ -1,0 +1,36 @@
+$dark-color-font: #7f8c8d;
+$main-theme-color:#71b9e9;
+
+@mixin box-base( $height ){
+    width: 100%;
+    height: $height;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 4px 4px  5px  #888;
+}
+
+.box{
+   
+    @include box-base(300px); 
+    
+    .box-head{
+        width: 100%;
+        padding: 15px 10px 5px 10px;
+        height: 50px;
+        text-align: center;
+        color: $dark-color-font;
+        font-weight: bold;
+        font-size: 28px;
+    }
+    
+    .box-body{
+        width: 100%;
+        height: calc( 100% - 50px);
+        padding: 22px 12px 12px 12px;
+        
+        h4{ 
+        text-align: center;
+        color: $dark-color-font;
+        }
+    }
+}
